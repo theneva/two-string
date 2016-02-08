@@ -1,6 +1,6 @@
 {
   "name": "two-string",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An incredibly useful twoString utility.",
   "keywords": [
     "two",
@@ -11,12 +11,22 @@
   "bugs": "https://github.com/theneva/two-string/issues",
   "license": "CC0-1.0",
   "author": "Martin Lehmann <martin@lehmann.tech> (https://github.com/theneva)",
-  "main": "index.js",
+  "main": "src/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/theneva/two-string"
   },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha -R nyan"
+  },
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^1.10.3",
+    "eslint-config-airbnb": "^5.0.0",
+    "eslint-plugin-react": "^3.16.1",
+    "mocha": "^2.4.5"
+  },
   "peerDependencies": {}
 }
