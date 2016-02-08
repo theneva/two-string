@@ -1,6 +1,6 @@
 {
   "name": "two-string",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An incredibly useful twoString utility.",
   "keywords": [
     "two",
@@ -18,6 +18,7 @@
   },
   "scripts": {
     "lint": "eslint .",
+    "pretest": "npm run lint",
     "test": "mocha -R nyan"
   },
   "dependencies": {},
