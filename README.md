@@ -2,6 +2,8 @@
 
 > An extremely useful utility.
 
+[![Travis](https://travis-ci.org/theneva/two-string.svg?branch=master)](https://travis-ci.org/theneva/two-string)
+
 ## Usage
 
 ```js
