@@ -1,6 +1,15 @@
 language: node_js
+
 node_js:
   - "stable"
   - "4.2"
   - "0.12"
   - "iojs"
+
+# Ensure npm 3
+before_install: npm install -g npm
+
+script: npm run cover
+
+after_success:
+  - node_modules/.bin/coveralls --verbose < coverage/lcov.info

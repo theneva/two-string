@@ -1,2 +1,3 @@
 test/
 --recursive
+--require blanket
