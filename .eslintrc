@@ -1,3 +1,6 @@
 {
-  "extends": "airbnb"
+  "extends": "airbnb",
+  "rules": {
+    "prefer-arrow-callback": 0
+  }
 }
