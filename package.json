@@ -1,0 +1,22 @@
+{
+  "name": "two-string",
+  "version": "1.0.0",
+  "description": "An incredibly useful twoString utility.",
+  "keywords": [
+    "two",
+    "string",
+    "twoString"
+  ],
+  "homepage": "https://github.com/theneva/two-string",
+  "bugs": "https://github.com/theneva/two-string/issues",
+  "license": "CC0-1.0",
+  "author": "Martin Lehmann <martin@lehmann.tech> (https://github.com/theneva)",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theneva/two-string"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "peerDependencies": {}
+}
