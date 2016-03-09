@@ -1,3 +1,3 @@
 module.exports = function twoString() {
-  return '2';
+  return '3';
 };
